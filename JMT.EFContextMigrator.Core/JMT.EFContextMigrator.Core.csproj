@@ -7,7 +7,8 @@
     <PackageProjectUrl>https://github.com/waput90/JMT.EFContextMigrator</PackageProjectUrl>
     <RepositoryUrl>https://github.com/waput90/JMT.EFContextMigrator</RepositoryUrl>
     <Description>a simple dotnet core automatic migration wrapper upon starting the MVC or API application will automatically generate your migration for you, instead of doing some manual command for it</Description>
-    <PackageReleaseNotes>initial commit</PackageReleaseNotes>
+    <PackageReleaseNotes>roll back final patch for migrator</PackageReleaseNotes>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
