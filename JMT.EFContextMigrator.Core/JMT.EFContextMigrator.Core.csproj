@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>James Tubiano</Authors>
+    <Company>JMT</Company>
+    <PackageProjectUrl>https://github.com/waput90/JMT.EFContextMigrator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/waput90/JMT.EFContextMigrator</RepositoryUrl>
+    <Description>a simple dotnet core automatic migration wrapper upon starting the MVC or API application will automatically generate your migration for you, instead of doing some manual command for it</Description>
+    <PackageReleaseNotes>initial commit</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.23" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.23" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.23" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.23" />
+  </ItemGroup>
+
+</Project>
